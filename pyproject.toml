@@ -13,6 +13,11 @@ dependencies = [
   "PyYAML>=6.0",
 ]
 
+[project.optional-dependencies]
+speed = [
+  "numba>=0.59",
+]
+
 [tool.setuptools]
 package-dir = {"" = "."}
 

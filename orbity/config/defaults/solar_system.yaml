@@ -342,3 +342,291 @@ bodies:
       argument_periapsis_deg: 312.0
       mean_anomaly_deg: 125.0
       orbital_period_days: 2036.0
+
+  interamnia:
+    id: interamnia
+    name: Interamnia
+    type: asteroid
+    parent: sun
+    mass_kg: 3.9e19
+    radius_m: 166000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 3.067
+      eccentricity: 0.154
+      inclination_deg: 17.3
+      longitude_ascending_node_deg: 282.8
+      argument_periapsis_deg: 94.2
+      mean_anomaly_deg: 290.0
+      orbital_period_days: 1962.0
+
+  europa_asteroid:
+    id: europa_asteroid
+    name: 52 Europa
+    type: asteroid
+    parent: sun
+    mass_kg: 2.4e19
+    radius_m: 157000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 3.096
+      eccentricity: 0.098
+      inclination_deg: 7.5
+      longitude_ascending_node_deg: 128.6
+      argument_periapsis_deg: 195.7
+      mean_anomaly_deg: 176.0
+      orbital_period_days: 1990.0
+
+  davida:
+    id: davida
+    name: Davida
+    type: asteroid
+    parent: sun
+    mass_kg: 3.8e19
+    radius_m: 163000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 3.164
+      eccentricity: 0.188
+      inclination_deg: 15.9
+      longitude_ascending_node_deg: 106.6
+      argument_periapsis_deg: 333.8
+      mean_anomaly_deg: 240.0
+      orbital_period_days: 2058.0
+
+  sylvia:
+    id: sylvia
+    name: Sylvia
+    type: asteroid
+    parent: sun
+    mass_kg: 1.5e19
+    radius_m: 136000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 3.486
+      eccentricity: 0.080
+      inclination_deg: 10.9
+      longitude_ascending_node_deg: 73.3
+      argument_periapsis_deg: 265.3
+      mean_anomaly_deg: 110.0
+      orbital_period_days: 2378.0
+
+  eunomia:
+    id: eunomia
+    name: Eunomia
+    type: asteroid
+    parent: sun
+    mass_kg: 3.1e19
+    radius_m: 128000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.644
+      eccentricity: 0.187
+      inclination_deg: 11.7
+      longitude_ascending_node_deg: 293.0
+      argument_periapsis_deg: 97.2
+      mean_anomaly_deg: 340.0
+      orbital_period_days: 1571.0
+
+  psyche:
+    id: psyche
+    name: Psyche
+    type: asteroid
+    parent: sun
+    mass_kg: 2.2e19
+    radius_m: 113000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.923
+      eccentricity: 0.140
+      inclination_deg: 3.1
+      longitude_ascending_node_deg: 150.0
+      argument_periapsis_deg: 228.0
+      mean_anomaly_deg: 300.0
+      orbital_period_days: 1826.0
+
+  cybele:
+    id: cybele
+    name: Cybele
+    type: asteroid
+    parent: sun
+    mass_kg: 1.5e19
+    radius_m: 118000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 3.434
+      eccentricity: 0.109
+      inclination_deg: 3.6
+      longitude_ascending_node_deg: 155.6
+      argument_periapsis_deg: 245.5
+      mean_anomaly_deg: 23.0
+      orbital_period_days: 2326.0
+
+  thisbe:
+    id: thisbe
+    name: Thisbe
+    type: asteroid
+    parent: sun
+    mass_kg: 1.2e19
+    radius_m: 103000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.769
+      eccentricity: 0.162
+      inclination_deg: 5.2
+      longitude_ascending_node_deg: 277.8
+      argument_periapsis_deg: 159.3
+      mean_anomaly_deg: 215.0
+      orbital_period_days: 1682.0
+
+  camilla:
+    id: camilla
+    name: Camilla
+    type: asteroid
+    parent: sun
+    mass_kg: 1.1e19
+    radius_m: 104000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 3.491
+      eccentricity: 0.080
+      inclination_deg: 10.0
+      longitude_ascending_node_deg: 173.1
+      argument_periapsis_deg: 307.6
+      mean_anomaly_deg: 58.0
+      orbital_period_days: 2383.0
+
+  juno:
+    id: juno
+    name: Juno
+    type: asteroid
+    parent: sun
+    mass_kg: 2.7e19
+    radius_m: 117000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.669
+      eccentricity: 0.257
+      inclination_deg: 12.99
+      longitude_ascending_node_deg: 169.9
+      argument_periapsis_deg: 248.4
+      mean_anomaly_deg: 120.0
+      orbital_period_days: 1593.0
+
+  iris:
+    id: iris
+    name: Iris
+    type: asteroid
+    parent: sun
+    mass_kg: 1.4e19
+    radius_m: 99500.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.386
+      eccentricity: 0.230
+      inclination_deg: 5.5
+      longitude_ascending_node_deg: 259.5
+      argument_periapsis_deg: 145.4
+      mean_anomaly_deg: 33.0
+      orbital_period_days: 1346.0
+
+  hebe:
+    id: hebe
+    name: Hebe
+    type: asteroid
+    parent: sun
+    mass_kg: 1.3e19
+    radius_m: 93000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.426
+      eccentricity: 0.202
+      inclination_deg: 14.7
+      longitude_ascending_node_deg: 138.7
+      argument_periapsis_deg: 239.5
+      mean_anomaly_deg: 70.0
+      orbital_period_days: 1380.0
+
+  amphitrite:
+    id: amphitrite
+    name: Amphitrite
+    type: asteroid
+    parent: sun
+    mass_kg: 1.2e19
+    radius_m: 106000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.554
+      eccentricity: 0.072
+      inclination_deg: 6.1
+      longitude_ascending_node_deg: 356.4
+      argument_periapsis_deg: 63.8
+      mean_anomaly_deg: 310.0
+      orbital_period_days: 1492.0
+
+  fortuna:
+    id: fortuna
+    name: Fortuna
+    type: asteroid
+    parent: sun
+    mass_kg: 8.6e18
+    radius_m: 101000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.442
+      eccentricity: 0.159
+      inclination_deg: 1.6
+      longitude_ascending_node_deg: 211.0
+      argument_periapsis_deg: 182.2
+      mean_anomaly_deg: 210.0
+      orbital_period_days: 1394.0
+
+  herculina:
+    id: herculina
+    name: Herculina
+    type: asteroid
+    parent: sun
+    mass_kg: 9.1e18
+    radius_m: 112000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.771
+      eccentricity: 0.175
+      inclination_deg: 16.3
+      longitude_ascending_node_deg: 108.1
+      argument_periapsis_deg: 122.0
+      mean_anomaly_deg: 254.0
+      orbital_period_days: 1684.0
+
+  alexandra:
+    id: alexandra
+    name: Alexandra
+    type: asteroid
+    parent: sun
+    mass_kg: 6.0e18
+    radius_m: 80000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 3.145
+      eccentricity: 0.196
+      inclination_deg: 11.8
+      longitude_ascending_node_deg: 313.9
+      argument_periapsis_deg: 346.5
+      mean_anomaly_deg: 18.0
+      orbital_period_days: 2038.0
