@@ -1,0 +1,46 @@
+version: "1.0"
+metadata:
+  name: "Freighter Frontier Overlay"
+  epoch: "2235-01-01T00:00:00Z"
+  source: "Fictional augmentation"
+
+extends: "../orbity/config/defaults/solar_system.yaml"
+
+bodies:
+  # Make Mars a little denser traffic-wise by adding two stations as tiny bodies.
+  mars_station_alpha:
+    id: mars_station_alpha
+    name: Mars Station Alpha
+    type: station
+    parent: mars
+    mass_kg: 5.0e12
+    radius_m: 600.0
+    source: "Fictional"
+    orbital_elements:
+      epoch: "2235-01-01T00:00:00Z"
+      semi_major_axis_au: 0.00000012
+      eccentricity: 0.001
+      inclination_deg: 25.0
+      longitude_ascending_node_deg: 10.0
+      argument_periapsis_deg: 40.0
+      mean_anomaly_deg: 0.0
+      orbital_period_days: 0.45
+
+  belt_hub_one:
+    id: belt_hub_one
+    name: Belt Hub One
+    type: station
+    parent: sun
+    mass_kg: 3.0e13
+    radius_m: 1200.0
+    source: "Fictional"
+    notes: "Heavy freight relay orbiting in the asteroid belt"
+    orbital_elements:
+      epoch: "2235-01-01T00:00:00Z"
+      semi_major_axis_au: 2.95
+      eccentricity: 0.03
+      inclination_deg: 4.0
+      longitude_ascending_node_deg: 122.0
+      argument_periapsis_deg: 190.0
+      mean_anomaly_deg: 260.0
+      orbital_period_days: 1853.0

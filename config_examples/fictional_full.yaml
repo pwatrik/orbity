@@ -1,0 +1,92 @@
+version: "1.0"
+metadata:
+  name: "Helios Reach"
+  epoch: "2235-01-01T00:00:00Z"
+  source: "Fictional replacement"
+
+root_frame: helion
+
+constants:
+  AU_m: 149597870700.0
+
+bodies:
+  helion:
+    id: helion
+    name: Helion
+    type: star
+    parent: null
+    mass_kg: 1.62e30
+    radius_m: 810000000.0
+    source: "Fictional"
+
+  haven:
+    id: haven
+    name: Haven
+    type: planet
+    parent: helion
+    mass_kg: 7.2e24
+    radius_m: 6800000.0
+    source: "Fictional"
+    orbital_elements:
+      epoch: "2235-01-01T00:00:00Z"
+      semi_major_axis_au: 0.91
+      eccentricity: 0.02
+      inclination_deg: 1.2
+      longitude_ascending_node_deg: 8.5
+      argument_periapsis_deg: 55.0
+      mean_anomaly_deg: 22.0
+      orbital_period_days: 332.0
+
+  rook:
+    id: rook
+    name: Rook
+    type: moon
+    parent: haven
+    mass_kg: 8.8e22
+    radius_m: 2050000.0
+    source: "Fictional"
+    orbital_elements:
+      epoch: "2235-01-01T00:00:00Z"
+      semi_major_axis_au: 0.00195
+      eccentricity: 0.031
+      inclination_deg: 2.1
+      longitude_ascending_node_deg: 63.0
+      argument_periapsis_deg: 102.0
+      mean_anomaly_deg: 300.0
+      orbital_period_days: 19.2
+
+  dray:
+    id: dray
+    name: Dray
+    type: planet
+    parent: helion
+    mass_kg: 1.6e25
+    radius_m: 11200000.0
+    source: "Fictional"
+    orbital_elements:
+      epoch: "2235-01-01T00:00:00Z"
+      semi_major_axis_au: 2.45
+      eccentricity: 0.09
+      inclination_deg: 4.8
+      longitude_ascending_node_deg: 129.0
+      argument_periapsis_deg: 210.0
+      mean_anomaly_deg: 80.0
+      orbital_period_days: 1440.0
+
+  freight_ring_1:
+    id: freight_ring_1
+    name: Freight Ring 1
+    type: asteroid
+    parent: helion
+    mass_kg: 2.1e18
+    radius_m: 72000.0
+    source: "Fictional"
+    orbital_elements:
+      epoch: "2235-01-01T00:00:00Z"
+      semi_major_axis_au: 2.91
+      eccentricity: 0.06
+      inclination_deg: 5.5
+      longitude_ascending_node_deg: 179.0
+      argument_periapsis_deg: 84.0
+      mean_anomaly_deg: 14.0
+      orbital_period_days: 1812.0

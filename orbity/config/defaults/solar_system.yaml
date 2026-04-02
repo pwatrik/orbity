@@ -1,0 +1,344 @@
+version: "1.0"
+metadata:
+  name: "Solar System (Lean)"
+  epoch: "2000-01-01T12:00:00Z"
+  source: "NASA/JPL derived (approximate gameplay values)"
+
+root_frame: sun
+
+constants:
+  AU_m: 149597870700.0
+
+bodies:
+  sun:
+    id: sun
+    name: Sun
+    type: star
+    parent: null
+    mass_kg: 1.9885e30
+    radius_m: 695700000.0
+    source: "NASA fact sheet"
+
+  mercury:
+    id: mercury
+    name: Mercury
+    type: planet
+    parent: sun
+    mass_kg: 3.3011e23
+    radius_m: 2439700.0
+    source: "NASA/JPL"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 0.387098
+      eccentricity: 0.205630
+      inclination_deg: 7.005
+      longitude_ascending_node_deg: 48.331
+      argument_periapsis_deg: 29.124
+      mean_anomaly_deg: 174.796
+      orbital_period_days: 87.969
+
+  venus:
+    id: venus
+    name: Venus
+    type: planet
+    parent: sun
+    mass_kg: 4.8675e24
+    radius_m: 6051800.0
+    source: "NASA/JPL"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 0.723332
+      eccentricity: 0.006772
+      inclination_deg: 3.394
+      longitude_ascending_node_deg: 76.680
+      argument_periapsis_deg: 54.884
+      mean_anomaly_deg: 50.115
+      orbital_period_days: 224.701
+
+  earth:
+    id: earth
+    name: Earth
+    type: planet
+    parent: sun
+    mass_kg: 5.9722e24
+    radius_m: 6371000.0
+    source: "NASA/JPL"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 1.000000
+      eccentricity: 0.016708
+      inclination_deg: 0.000
+      longitude_ascending_node_deg: -11.260
+      argument_periapsis_deg: 114.207
+      mean_anomaly_deg: 358.617
+      orbital_period_days: 365.256
+
+  mars:
+    id: mars
+    name: Mars
+    type: planet
+    parent: sun
+    mass_kg: 6.4171e23
+    radius_m: 3389500.0
+    source: "NASA/JPL"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 1.523679
+      eccentricity: 0.0934
+      inclination_deg: 1.850
+      longitude_ascending_node_deg: 49.558
+      argument_periapsis_deg: 286.502
+      mean_anomaly_deg: 19.373
+      orbital_period_days: 686.980
+
+  jupiter:
+    id: jupiter
+    name: Jupiter
+    type: planet
+    parent: sun
+    mass_kg: 1.8982e27
+    radius_m: 69911000.0
+    source: "NASA/JPL"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 5.2044
+      eccentricity: 0.0489
+      inclination_deg: 1.304
+      longitude_ascending_node_deg: 100.464
+      argument_periapsis_deg: 273.867
+      mean_anomaly_deg: 20.020
+      orbital_period_days: 4332.589
+
+  saturn:
+    id: saturn
+    name: Saturn
+    type: planet
+    parent: sun
+    mass_kg: 5.6834e26
+    radius_m: 58232000.0
+    source: "NASA/JPL"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 9.5826
+      eccentricity: 0.0565
+      inclination_deg: 2.485
+      longitude_ascending_node_deg: 113.665
+      argument_periapsis_deg: 339.392
+      mean_anomaly_deg: 317.020
+      orbital_period_days: 10759.22
+
+  uranus:
+    id: uranus
+    name: Uranus
+    type: planet
+    parent: sun
+    mass_kg: 8.6810e25
+    radius_m: 25362000.0
+    source: "NASA/JPL"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 19.2184
+      eccentricity: 0.0463
+      inclination_deg: 0.773
+      longitude_ascending_node_deg: 74.006
+      argument_periapsis_deg: 96.998
+      mean_anomaly_deg: 142.2386
+      orbital_period_days: 30688.5
+
+  neptune:
+    id: neptune
+    name: Neptune
+    type: planet
+    parent: sun
+    mass_kg: 1.02413e26
+    radius_m: 24622000.0
+    source: "NASA/JPL"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 30.11
+      eccentricity: 0.0097
+      inclination_deg: 1.770
+      longitude_ascending_node_deg: 131.784
+      argument_periapsis_deg: 273.187
+      mean_anomaly_deg: 260.247
+      orbital_period_days: 60182.0
+
+  moon:
+    id: moon
+    name: Moon
+    type: moon
+    parent: earth
+    mass_kg: 7.342e22
+    radius_m: 1737400.0
+    source: "NASA/JPL derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 0.00257
+      eccentricity: 0.0549
+      inclination_deg: 5.145
+      longitude_ascending_node_deg: 125.08
+      argument_periapsis_deg: 318.15
+      mean_anomaly_deg: 115.3654
+      orbital_period_days: 27.321661
+
+  io:
+    id: io
+    name: Io
+    type: moon
+    parent: jupiter
+    mass_kg: 8.9319e22
+    radius_m: 1821600.0
+    source: "NASA/JPL derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 0.002819
+      eccentricity: 0.0041
+      inclination_deg: 0.036
+      longitude_ascending_node_deg: 43.977
+      argument_periapsis_deg: 84.129
+      mean_anomaly_deg: 171.016
+      orbital_period_days: 1.769
+
+  europa:
+    id: europa
+    name: Europa
+    type: moon
+    parent: jupiter
+    mass_kg: 4.7998e22
+    radius_m: 1560800.0
+    source: "NASA/JPL derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 0.004486
+      eccentricity: 0.009
+      inclination_deg: 0.466
+      longitude_ascending_node_deg: 219.106
+      argument_periapsis_deg: 88.970
+      mean_anomaly_deg: 52.643
+      orbital_period_days: 3.551
+
+  ganymede:
+    id: ganymede
+    name: Ganymede
+    type: moon
+    parent: jupiter
+    mass_kg: 1.4819e23
+    radius_m: 2634100.0
+    source: "NASA/JPL derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 0.007155
+      eccentricity: 0.0013
+      inclination_deg: 0.177
+      longitude_ascending_node_deg: 63.552
+      argument_periapsis_deg: 192.417
+      mean_anomaly_deg: 317.540
+      orbital_period_days: 7.155
+
+  callisto:
+    id: callisto
+    name: Callisto
+    type: moon
+    parent: jupiter
+    mass_kg: 1.0759e23
+    radius_m: 2410300.0
+    source: "NASA/JPL derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 0.012585
+      eccentricity: 0.0074
+      inclination_deg: 0.192
+      longitude_ascending_node_deg: 298.848
+      argument_periapsis_deg: 52.643
+      mean_anomaly_deg: 181.408
+      orbital_period_days: 16.689
+
+  titan:
+    id: titan
+    name: Titan
+    type: moon
+    parent: saturn
+    mass_kg: 1.3452e23
+    radius_m: 2574700.0
+    source: "NASA/JPL derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 0.008168
+      eccentricity: 0.0288
+      inclination_deg: 0.34854
+      longitude_ascending_node_deg: 27.786
+      argument_periapsis_deg: 186.585
+      mean_anomaly_deg: 120.321
+      orbital_period_days: 15.945
+
+  ceres:
+    id: ceres
+    name: Ceres
+    type: asteroid
+    parent: sun
+    mass_kg: 9.393e20
+    radius_m: 473000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.7675
+      eccentricity: 0.0758
+      inclination_deg: 10.593
+      longitude_ascending_node_deg: 80.305
+      argument_periapsis_deg: 73.597
+      mean_anomaly_deg: 95.989
+      orbital_period_days: 1680.0
+
+  vesta:
+    id: vesta
+    name: Vesta
+    type: asteroid
+    parent: sun
+    mass_kg: 2.59076e20
+    radius_m: 262700.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.3613
+      eccentricity: 0.089
+      inclination_deg: 7.14
+      longitude_ascending_node_deg: 103.8
+      argument_periapsis_deg: 150.9
+      mean_anomaly_deg: 151.2
+      orbital_period_days: 1325.0
+
+  pallas:
+    id: pallas
+    name: Pallas
+    type: asteroid
+    parent: sun
+    mass_kg: 2.04e20
+    radius_m: 256000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 2.773
+      eccentricity: 0.231
+      inclination_deg: 34.84
+      longitude_ascending_node_deg: 173.1
+      argument_periapsis_deg: 310.2
+      mean_anomaly_deg: 33.2
+      orbital_period_days: 1685.0
+
+  hygiea:
+    id: hygiea
+    name: Hygiea
+    type: asteroid
+    parent: sun
+    mass_kg: 8.67e19
+    radius_m: 223000.0
+    source: "JPL small-body db derived"
+    orbital_elements:
+      epoch: "2000-01-01T12:00:00Z"
+      semi_major_axis_au: 3.1415
+      eccentricity: 0.1125
+      inclination_deg: 3.84
+      longitude_ascending_node_deg: 283.2
+      argument_periapsis_deg: 312.0
+      mean_anomaly_deg: 125.0
+      orbital_period_days: 2036.0
